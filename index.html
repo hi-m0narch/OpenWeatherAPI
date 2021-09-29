@@ -1,0 +1,1107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+  	    <title>BPBD Kab.Tasikmalaya</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	    <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="js/html2canvas.js"></script>
+
+	</head>
+	<body>
+  
+	<section class="ftco-section">
+       
+		<div class="container" id="capture">
+          
+			<div class="row justify-content-center">
+                <div  class="row justify-content-left">
+                    <img src="icons/download.jpg" alt="">
+                </div>
+				<div class="col-md-12 text-center mb-10">
+					<h1 class="heading-section" ><B>BADAN PENANGGULANGAN BENCANA DAERAH KAB TASIKMALAYA</B></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center mb-4">Prakiraan Cuaca Kabupaten Tasikmalaya</h2 >
+                <div>
+                    <h4>Tanggal : <span id="tanggalwaktu"></span> </h4>
+                </div>
+					<div class="table-wrap">
+            <div class="form-group">
+                <!--		Show Numbers Of Rows 		-->
+                <select class="form-control" name="state" id="maxRows">
+                    <option value="5000">Show ALL Rows</option>
+                    <option value="13">13</option>
+                    <option value="20">20</option>                 
+                </select>
+            </div>
+
+            
+
+		<table class="table table-bordered"  id="table-id" >
+            <thead>
+                <tr>
+                    <th style="width: 300px;">Kecamatan</th>
+                    <th>Pagi&emsp; </th>
+                    <th>Siang</th>
+                    <th>Sore&ensp;</th>
+                    <th>Malam</th>
+                    <th style="width:300px">Suhu</th>
+                    <th>Kelembapan</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec0"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon10"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon20"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon30"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon40"><img src="" /></div>
+                    </td>                    
+                    <td>
+                        <div class ="weather-temp0"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity0"><img src="" /></div>
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec1"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon11"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon21"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon31"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon41"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp1"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity1"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec2"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon12"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon22"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon32"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon42"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp2"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity2"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec3"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon13"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon23"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon33"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon43"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp3"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity3"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec4"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon14"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon24"><img src="" /></div>
+                    </td>
+                    <td>
+                      <div class="weather-icon34"><img src="" /></div>
+                    </td>
+                    <td >
+                      <div class="weather-icon44"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp4"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity4"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec5"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon15"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon25"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon35"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon45"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp5"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity5"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec6"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon16"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon26"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon36"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon46"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp6"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity6"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec7"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon17"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon27"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-icon37"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon47"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp7"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity7"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec8"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon18"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon28"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon38"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon48"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp8"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity8"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec9"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon19"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon29"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon39"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon49"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp9"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity9"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec10"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon110"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon210"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon310"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon410"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp10"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity10"><img src="" /></div>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td class="text-center"> 
+                        <div>Culamega</div></p></div>
+                    </td>
+                    <td>
+                        <div class="wicon10"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon20"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon30"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon40"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="wtemp0"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="whumidity0"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec11"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon111"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon211"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon311"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon411"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp11"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity11"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec12"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon112"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon212"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon312"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon412"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp12"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity12"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec13"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon113"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon213"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon313"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon413"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-temp13"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity13"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec14"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon114"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon214"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon314"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon414"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp14"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity14"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec15"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon115"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon215"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon315"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon415"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp15"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity15"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec16"></div></p></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon116"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon216"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon316"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon416"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp16"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity16"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div>Leuwisari</div></p></div>
+                    </td>
+                    <td>
+                        <div class="wicon11"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon21"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon31"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon41"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="wtemp1"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="whumidity1"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec17"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon117"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon217"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon317"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon417"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp17"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity17"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec18"></div></p></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon118"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon218"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon318"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon418"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp18"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity18"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec19"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon119"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon219"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon319"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon419"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp19"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity19"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec20"></div></p></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon120"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon220"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon320"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon420"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp20"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity20"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div>Pancatengah</div></p></div>
+                    </td>
+                    <td>
+                        <div class="wicon12"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon22"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon32"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="wicon42"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="wtemp2"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="whumidity2"><img src="" /></div>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec21"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon121"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon221"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon321"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon421"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp21"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity21"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec22"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon122"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon222"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon322"><img src="" /></div>
+                    </td>
+                    <td>
+                      <div class="weather-icon422"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp22"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity22"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec23"></div></p></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon123"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon223"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon323"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon423"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp23"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity23"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec24"></div></p></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon124"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon224"><img src="" /></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon324"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon424"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp24"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity24"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec25"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon125"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon225"><img src="" /></div>
+                    </td>
+                    <td>
+                      <div class="weather-icon325"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon425"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp25"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity25"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec26"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon126"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon226"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon326"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon426"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp26"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity26"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec27"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon127"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon227"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon327"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon427"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp27"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity27"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec28"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon128"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon228"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon328"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon428"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp28"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity28"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec29"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon129"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon229"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon329"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon429"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp29"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity29"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec30"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon130"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon230"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon330"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon430"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp30"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity30"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec31"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon131"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon231"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon331"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon431"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp31"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity31"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec32"></div></p></div>
+                    </td>
+                    <td >
+                        <div class="weather-icon132"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon232"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon332"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon432"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp32"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity32"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec33"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon133"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon233"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon333"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon433"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp33"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity33"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec34"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon134"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon234"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon334"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon434"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp34"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity34"><img src="" /></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="text-center"> 
+                        <div class = "weather-kec35"></div></p></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon135"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon235"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon335"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-icon435"><img src="" /></div>
+                    </td>
+                    <td>
+                        <div class="weather-temp35"><img src="" /></div>
+                    </td>                  
+                    <td>
+                        <div class="weather-humidity35"><img src="" /></div>
+                    </td>
+                </tr>
+
+                
+              </tbody>
+              
+            </table>
+
+            <div >
+                <nav>
+                    <ul class="pagination">
+          
+                        <li class="icon" data-page="prev">
+                            <a href=""><span class="fas fa-angle-left">
+                            &laquo; Back
+                            </span></a></li>  
+                        </li>
+                        <!--	Here the JS Function Will Add the Rows -->
+                        <li class="icon" data-page="next" id="prev"> <a href="">
+                            <span class="fas fa-angle-left">
+                            Next &raquo;
+                            </span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+        <br><br>
+        <div><button id="btn" class="button">Screenshot</button></div>
+	</section>
+
+    
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main1.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+
+    <!-- Script -->
+    <script type='text/javascript'>
+        function screenshot(){
+            html2canvas(document.body).then(function(canvas) {
+       
+                document.body.appendChild(canvas);
+            });
+        }
+    </script>
+    <script>
+        var tw = new Date();
+        if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+        else (a=tw.getTime());
+        tw.setTime(a);
+        var tahun= tw.getFullYear ();
+        var hari= tw.getDay ();
+        var bulan= tw.getMonth ();
+        var tanggal= tw.getDate ();
+        var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
+        var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
+        document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" Jam " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes() + (" WIB ");
+    </script>
+
+
+	</body>
+</html>
+
